@@ -1,0 +1,23 @@
+{
+  "name": "quiz-builder",
+  "version": "1.0.0",
+  "description": "Full-stack Quiz Builder application",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend:dev": "npm run dev --prefix backend",
+    "frontend:dev": "npm run dev --prefix frontend",
+    "backend:build": "npm run build --prefix backend",
+    "frontend:build": "npm run build --prefix frontend",
+    "lint": "npm run lint --prefix backend && npm run lint --prefix frontend"
+  },
+  "keywords": [
+    "quiz-builder",
+    "nextjs",
+    "express",
+    "prisma",
+    "typescript",
+    "fullstack"
+  ],
+  "author": "Bohdan Mozghovyi",
+  "license": "MIT"
+}
